@@ -1,0 +1,17 @@
+# 🚀 Backend Task Management API (Node.js & Express)
+
+A modular and clean RESTful API built with **Node.js** and **Express.js** to handle task management operations. Designed with maintainability in mind using an MVC-inspired folder architecture, robust input handling, custom security middleware, and full Postman testing.
+
+---
+
+## 📂 Project Structure
+
+```text
+├── controllers/
+│   └── taskController.js    # Logic for task handling (CRUD)
+├── middleware/
+│   └── security.js          # Custom security & validation middleware
+├── routes/
+│   └── taskRoutes.js        # Express routing for API endpoints
+├── package.json             # Node.js dependencies and scripts
+└── server.js                # Server entry point and configuration
